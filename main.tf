@@ -720,8 +720,8 @@ resource "aws_route53_record" "cf_tcp_lb_dns" {
 
 
 
-output "dns_name" {value = aws_lb.cf_tcp_lb.dns_name}
-output "lb_name" {value = aws_elb.cf_tcp_lb.name }
+output "dns_name" {value = aws_elb.cf_tcp_lb.dns_name}
+output "lb_name"  {value = aws_elb.cf_tcp_lb.name }
 
 
 
