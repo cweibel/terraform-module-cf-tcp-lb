@@ -11,7 +11,7 @@ Inputs - Required:
  - `tcp_domain` - url used for tcp routing default domain     
  - `route53_zone_id` - Route53 zone id
  - `private_cidrs` - CIDR ranges of all non-public ipv4 addresses
- - `security_groups ` - security group ids for bosh & deployments, this gets merged with the sg created in the module
+ - `security_groups ` - security group ids for bosh & deployments
  
 
 
